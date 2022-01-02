@@ -11,8 +11,6 @@
     </parent>
 
     <artifactId>gui</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
     <name>GUI</name>
 
     <dependencies>
@@ -31,6 +29,12 @@
         <dependency>
             <groupId>earth.eu.jtzipi.modules</groupId>
             <artifactId>modules-io</artifactId>
+
+        </dependency>
+        <dependency>
+            <groupId>earth.eu.jtzipi.jamelime</groupId>
+            <artifactId>data</artifactId>
+            <version>${project.version}</version>
 
         </dependency>
     </dependencies>

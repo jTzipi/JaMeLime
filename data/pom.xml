@@ -34,11 +34,45 @@
         <version>0.1.0-SNAPSHOT</version>
     </parent>
 
-
     <artifactId>data</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
     <name>Data Model</name>
+    <description>Data Model Module. Manage data structure persistence</description>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>earth.eu.jtzipi.modules</groupId>
+            <artifactId>modules-io</artifactId>
+
+        </dependency>
+    </dependencies>
 
 </project>
